@@ -47,6 +47,11 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 **/Properties/launchSettings.json
+=======
+# DNX
+project.lock.json
+project.fragment.lock.json
+artifacts/
 
 *_i.c
 *_p.c
@@ -150,7 +155,10 @@ publish/
 *.azurePubxml
 # TODO: Comment the next line if you want to checkin your web deploy settings
 # but database connection strings (with potential passwords) will be unencrypted
+<<<<<<< HEAD
 *.pubxml
+=======
+#*.pubxml
 *.publishproj
 
 # Microsoft Azure Web App publish settings. Comment the next line if you want to
@@ -166,7 +174,7 @@ PublishScripts/
 !**/packages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/packages/repositories.config
-# NuGet v3's project.json files produces more ignorable files
+# NuGet v3's project.json files produces more ignoreable files
 *.nuget.props
 *.nuget.targets
 
@@ -199,6 +207,7 @@ ClientBin/
 *.jfm
 *.pfx
 *.publishsettings
+node_modules/
 orleans.codegen.cs
 
 # Since there are multiple workflows, uncomment next line to ignore bower_components
@@ -286,3 +295,4 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+*.pyc
